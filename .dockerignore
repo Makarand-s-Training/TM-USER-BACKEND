@@ -1,0 +1,26 @@
+# Maven files
+target/
+*.jar
+*.war
+
+# IDE files
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build logs
+*.log
+
+# Git
+.git/
+.gitignore
+
+# Maven wrapper
+.mvn/
+
+# Other
+*.md
+.gitkeep
