@@ -69,6 +69,20 @@ public class UserController {
     }
 
     /**
+     * Get users by name
+     */
+    @GetMapping("/search")
+    @Operation(summary = "Get users by name", description = "Search users by name (case-insensitive, partial match)")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Users retrieved successfully", content = @Content(schema = @Schema(implementation = User.class))),
+            @ApiResponse(responseCode = "500", description = "Internal server error")
+    })
+    public ResponseEntity<List<User>> getUsersByName(@RequestParam String name) {
+        List<User> users = userService.getUsersByName(name);
+        return ResponseEntity.ok(users);
+    }
+
+    /**
      * Update user
      */
     @PutMapping("/{id}")
