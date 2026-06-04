@@ -56,6 +56,14 @@ public class UserService {
     }
 
     /**
+     * Get users by name
+     */
+    @Transactional(readOnly = true)
+    public List<User> getUsersByName(String name) {
+        return userRepository.findByNameContainingIgnoreCase(name);
+    }
+
+    /**
      * Delete user
      */
     public void deleteUser(Long id) {
