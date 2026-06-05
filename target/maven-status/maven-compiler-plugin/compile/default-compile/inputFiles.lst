@@ -3,6 +3,7 @@ D:\Training\Tech Mahindra\GH-300\Workspace\user-management-backend\src\main\java
 D:\Training\Tech Mahindra\GH-300\Workspace\user-management-backend\src\main\java\com\usermanagement\exception\ErrorResponse.java
 D:\Training\Tech Mahindra\GH-300\Workspace\user-management-backend\src\main\java\com\usermanagement\exception\ResourceNotFoundException.java
 D:\Training\Tech Mahindra\GH-300\Workspace\user-management-backend\src\main\java\com\usermanagement\exception\GlobalExceptionHandler.java
+D:\Training\Tech Mahindra\GH-300\Workspace\user-management-backend\src\main\java\com\usermanagement\config\CorsConfig.java
 D:\Training\Tech Mahindra\GH-300\Workspace\user-management-backend\src\main\java\com\usermanagement\repository\UserRepository.java
 D:\Training\Tech Mahindra\GH-300\Workspace\user-management-backend\src\main\java\com\usermanagement\controller\UserController.java
 D:\Training\Tech Mahindra\GH-300\Workspace\user-management-backend\src\main\java\com\usermanagement\config\OpenAPIConfig.java

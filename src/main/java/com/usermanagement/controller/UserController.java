@@ -20,6 +20,7 @@ import java.util.List;
 @RequestMapping("/users")
 @RequiredArgsConstructor
 @Tag(name = "User Management", description = "APIs for managing users")
+@CrossOrigin(origins = "*") // Allow CORS for all origins (adjust as needed for production)
 public class UserController {
 
     private final UserService userService;
