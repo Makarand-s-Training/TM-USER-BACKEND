@@ -4,6 +4,5 @@ com\usermanagement\exception\GlobalExceptionHandler.class
 com\usermanagement\service\UserService.class
 com\usermanagement\exception\ErrorResponse.class
 com\usermanagement\model\User.class
-com\usermanagement\config\OpenAPIConfig.class
 com\usermanagement\exception\ResourceNotFoundException.class
 com\usermanagement\controller\UserController.class
